@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Connect | Pyronite</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@300&display=swap" rel="stylesheet">
+</head>
+<body style="display: flex; flex-direction: column; min-height: 100vh;">
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="brand">
+      <div class="logo"></div>
+      PYRONITE
+    </div>
+    <div class="nav-links">
+      <a href="index.html">Manifestos</a>
+      <a href="standard.html">Standard</a>
+      <a href="philosophy.html">Philosophy</a>
+      <a href="connect.html" class="active">Connect</a>
+    </div>
+    <div class="nav-meta">45.4215° N, 75.6972° W</div>
+  </nav>
+
+  <main class="container section reveal" style="padding-top: 10rem; flex: 1;">
+    <div class="section-header">
+      <span class="label">04 / Connect</span>
+      <div class="line"></div>
+    </div>
+
+    <div class="contact-container">
+      <div class="contact-info">
+        <h2>Initiate a consultation regarding your Liferay developer outsourcing needs.</h2>
+        <p>A senior architect from our engineering division will evaluate your project requirements and align the right Liferay experts for your team.</p>
+        
+        <div style="margin-top: 4rem; display: grid; gap: 2rem; grid-template-columns: 1fr 1fr;">
+          <div>
+            <span class="label" style="font-size: 0.7rem;">Registry</span>
+            <p style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase;">
+              PYRONITE INDUSTRIAL<br>
+              STEUER NR. 14/200/01234<br>
+              HRB 123456
+            </p>
+          </div>
+          <div>
+            <span class="label" style="font-size: 0.7rem;">Availability</span>
+            <p style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase;">
+              MON — FRI<br>
+              08:00 — 18:00 CET<br>
+              SYSTEM STANDBY 24/7
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form">
+        <form id="contactForm">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="ENTITY_NAME" required>
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" placeholder="COMMUNICATION_ENDPOINT" required>
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" placeholder="SYSTEM_SPECIFICATIONS / REQUIREMENTS" required></textarea>
+          </div>
+          <button type="submit" class="btn" style="width: 100%;">Transmit Inquiry</button>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container reveal">
+      <div class="footer-grid" style="grid-template-columns: 1fr; text-align: center;">
+        <div>
+          <h2 style="font-size: 4rem; font-weight: 700; color: var(--bg-surface); -webkit-text-stroke: 1px var(--border-light); text-transform: uppercase;">PYRONITE</h2>
+          <p style="font-family: var(--font-mono); font-size: 0.7rem; color: var(--text-muted); margin-top: 1rem;">© 2024 PYRONITE. LIFERAY DXP STAFFING SPECIALISTS. INDUSTRIAL INTEGRITY VERIFIED.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
