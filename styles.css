@@ -35,9 +35,37 @@ ul { list-style: none; }
 img { max-width: 100%; height: auto; display: block; }
 .material-symbols-outlined { vertical-align: middle; }
 
+/* Top Strip */
+.top-strip {
+  position: fixed; top: 0; left: 0; width: 100%; height: 36px;
+  background: #000; color: var(--text-muted); 
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--font-mono); font-size: 0.65rem; font-weight: 400; 
+  text-transform: uppercase; letter-spacing: 1.5px; z-index: 1002;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+.top-strip a {
+  text-decoration: none; margin-left: 6px; font-weight: 700; transition: opacity 0.3s;
+  background: linear-gradient(to right, #9b51e0, #ff57f4, #9b51e0);
+  background-size: 200% auto;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: gradient-shine 3s linear infinite;
+}
+.top-strip a:hover {
+  opacity: 0.8;
+}
+
+@keyframes gradient-shine {
+  to {
+    background-position: 200% center;
+  }
+}
+
 /* Navbar */
 .navbar {
-  position: fixed; top: 0; left: 0; width: 100%; height: var(--nav-height);
+  position: fixed; top: 36px; left: 0; width: 100%; height: var(--nav-height);
   background: rgba(10, 10, 10, 0.85); backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--border-light);
   display: flex; justify-content: space-between; align-items: center;
@@ -69,7 +97,7 @@ img { max-width: 100%; height: auto; display: block; }
 .btn-outline:hover { background: var(--text-primary); color: var(--bg-base); }
 
 /* Hero Section */
-.hero { display: flex; align-items: flex-end; min-height: 100vh; padding-bottom: 5rem; padding-top: var(--nav-height); }
+.hero { display: flex; align-items: flex-end; min-height: 100vh; padding-bottom: 5rem; padding-top: calc(var(--nav-height) + 36px); }
 .hero-content { display: grid; grid-template-columns: 8fr 4fr; gap: 4rem; align-items: end; }
 .hero h1 { font-size: clamp(3rem, 7vw, 6.5rem); font-weight: 700; line-height: 0.9; text-transform: uppercase; letter-spacing: -2px; }
 .hero h1 span { color: var(--primary); }
