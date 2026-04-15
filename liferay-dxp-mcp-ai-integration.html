@@ -107,6 +107,21 @@
       padding: 1.5rem;
       border-radius: 0 4px 4px 0;
     }
+    @media (max-width: 768px) {
+      .blog-container {
+        max-width: 100%;
+        padding: 2rem 1.5rem;
+        border-left: none;
+        border-right: none;
+      }
+      .blog-header h1 {
+        font-size: 2rem !important;
+      }
+      .blog-content h2 { font-size: 1.5rem; }
+      .blog-content h3 { font-size: 1.25rem; }
+      .blog-content pre { padding: 1rem !important; font-size: 0.8rem; }
+      .blog-content iframe, .blog-content img { max-width: 100%; height: auto; }
+    }
   </style>
 </head>
 <body>
@@ -127,7 +142,7 @@
   </nav>
 
   <section class="section" style="padding-top: 8rem;">
-    <div class="blog-container reveal">
+    <div class="blog-container">
       <a href="blogs.html" style="display: inline-flex; align-items: center; gap: 0.5rem; color: var(--text-muted); text-decoration: none; margin-bottom: 2rem; font-family: var(--font-mono); font-size: 0.8rem; text-transform: uppercase;">
         <span class="material-symbols-outlined" style="font-size: 1rem; border: 1px solid var(--border-light); padding: 4px; border-radius: 50%;">arrow_back</span> Back to Blogs
       </a>
