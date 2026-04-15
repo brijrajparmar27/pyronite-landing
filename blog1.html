@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Supercharging Liferay DXP Q1 2026 with AI | Pyronite Blogs</title>
+  <meta name="description" content="A definitive guide on supercharging Liferay DXP Q1 2026 with AI. Discover how to configure the Model Context Protocol (MCP) securely with Antigravity.">
+  <meta name="keywords" content="Liferay DXP Q1 2026, Liferay MCP, Model Context Protocol, Liferay AI Integration, Antigravity, Headless Liferay, Pyronite Tech">
+  <meta name="author" content="Pyronite Tech">
+  <meta property="og:title" content="Supercharging Liferay DXP Q1 2026 with AI">
+  <meta property="og:description" content="A definitive guide on supercharging Liferay DXP Q1 2026 with AI. Discover how to configure the Model Context Protocol (MCP) securely with Antigravity.">
+  <meta property="og:type" content="article">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="assets/logo.png">
+  <style>
+    .blog-container {
+      max-width: 85%;
+      margin: 0 auto;
+      padding: 4rem 4rem;
+      background: var(--bg-surface);
+      border: 1px solid var(--border-light);
+      position: relative;
+    }
+    .blog-header {
+      margin-bottom: 3rem;
+    }
+    .blog-header h1 {
+      font-size: clamp(2rem, 3.5vw, 3rem);
+      font-weight: 700;
+      line-height: 1.2;
+      margin-top: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    .blog-content {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      color: var(--text-muted);
+    }
+    .blog-content h2, .blog-content h3, .blog-content h4 {
+      color: #fff;
+      margin-top: 2.5rem;
+      margin-bottom: 1rem;
+      font-family: var(--font-body);
+      font-weight: 600;
+    }
+    .blog-content h2 { font-size: 2rem; text-transform: uppercase; }
+    .blog-content h3 { font-size: 1.5rem; text-transform: uppercase; }
+    .blog-content h4 { font-size: 1.25rem; }
+    
+    .blog-content p {
+      margin-bottom: 1.5rem;
+    }
+    .blog-content strong {
+      color: #fff;
+    }
+    .blog-content ul, .blog-content ol {
+      margin-bottom: 1.5rem;
+      padding-left: 1.5rem;
+    }
+    .blog-content li {
+      margin-bottom: 0.75rem;
+    }
+    .blog-content pre {
+      background-color: var(--bg-surface) !important;
+      border: 1px solid var(--border-light);
+      padding: 1.5rem !important;
+      border-radius: 4px !important;
+      overflow-x: auto;
+      margin-bottom: 1.5rem;
+      color: #fff;
+      font-family: var(--font-mono);
+      font-size: 0.9rem;
+    }
+    .blog-content code {
+      background-color: var(--bg-surface);
+      padding: 0.2rem 0.4rem;
+      border-radius: 3px;
+      font-family: var(--font-mono);
+      font-size: 0.9em;
+      color: #fff;
+    }
+    .blog-content pre code {
+      background-color: transparent;
+      padding: 0;
+    }
+    .blog-content a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+    .blog-content a:hover {
+      text-decoration: underline;
+    }
+    .blog-content hr {
+      border: 0;
+      height: 1px;
+      background: var(--border-light);
+      margin: 3rem 0;
+    }
+    .blog-content blockquote {
+      border-left: 4px solid var(--primary) !important;
+      padding-left: 1.5rem !important;
+      font-style: italic;
+      color: #ccc !important;
+      margin-left: 0;
+      margin-bottom: 1.5rem;
+      background: rgba(255, 62, 0, 0.05);
+      padding: 1.5rem;
+      border-radius: 0 4px 4px 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="top-strip">A Subsidiary of <a href="https://codealchemy.tech/" target="_blank">CodeAlchemy</a></div>
+  <nav class="navbar">
+    <div class="brand">
+      <img src="assets/logo.png" alt="Pyronite Logo" class="logo">
+      PYRONITE
+    </div>
+    <div class="nav-links">
+      <a href="index.html">Intro</a>
+      <a href="standard.html">Standard</a>
+      <a href="philosophy.html">Philosophy</a>
+      <a href="connect.html">Connect</a>
+      <a href="blogs.html" class="active">Blogs</a>
+    </div>
+    <div class="nav-meta"></div>
+  </nav>
+
+  <section class="section" style="padding-top: 8rem;">
+    <div class="blog-container reveal">
+      <a href="blogs.html" style="display: inline-flex; align-items: center; gap: 0.5rem; color: var(--text-muted); text-decoration: none; margin-bottom: 2rem; font-family: var(--font-mono); font-size: 0.8rem; text-transform: uppercase;">
+        <span class="material-symbols-outlined" style="font-size: 1rem; border: 1px solid var(--border-light); padding: 4px; border-radius: 50%;">arrow_back</span> Back to Blogs
+      </a>
+      
+      <div class="blog-header">
+        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 2rem; flex-wrap: wrap; gap: 1rem;">
+          <span class="label" style="margin-bottom: 0;">April 15, 2026 / Liferay DXP & AI / 4 Min Read</span>
+          <div style="display: flex; align-items: center; gap: 0.8rem;">
+            <img src="assets/logo.png" alt="Pyronite Author" style="width: 32px; height: 32px; border-radius: 50% !important; border: 1px solid var(--border-light); object-fit: contain; padding: 4px; background: #000;">
+            <span style="font-family: var(--font-mono); font-size: 0.8rem; color: #fff;">PYRONITE TECH</span>
+          </div>
+        </div>
+        <h1>Supercharging Liferay DXP Q1 2026 with AI: A Deep Dive into MCP Integration using Antigravity</h1>
+        
+      </div>
+      
+      <div class="blog-content">
+        <p>At <strong>Pyronite Tech</strong>, we are constantly exploring ways to elevate enterprise architecture. With the release of Liferay DXP Q1 2026, the platform has introduced a game-changing capability: native support for the Model Context Protocol (MCP). By connecting Liferay to an AI assistant like Antigravity via MCP, we can transition Liferay from a traditional portal into a dynamic, AI-driven platform.</p>
+
+        <p>This integration allows the AI to securely read your portal's context, fetch OpenAPIs, and execute headless operations directly from your prompt interface. However, because this feature is currently in beta, configuring it requires some precision.</p>
+
+
+
+        <p>Here is the definitive, step-by-step guide on how we successfully configured Antigravity with Liferay DXP Q1 2026.</p>
+
+        <hr>
+
+        <h3>Step 1: Enable the Beta Feature Flag in Liferay</h3>
+        <p>Out of the box, the MCP endpoint in Liferay is hidden behind a feature flag. If you skip this step, the server simply will not respond to connection requests.</p>
+        <ol>
+          <li>Navigate to your Liferay DXP configuration environment or Control Panel.</li>
+          <li>Locate the Feature Flags section.</li>
+          <li>Explicitly enable <strong><code>MCP Server (LPD-63311)</code></strong>.</li>
+          <li>Restart your Liferay bundle to ensure the endpoint (<code>/o/mcp</code>) is exposed.</li>
+        </ol>
+
+        <h3>Step 2: Create a Dedicated Service Account &amp; Generate Credentials</h3>
+        <p>Security is paramount when giving an AI agent access to your enterprise platform. You should never use a full Administrator account for this integration.</p>
+        <ol>
+          <li><strong>Create the User:</strong> Set up a dedicated user (e.g., <code>mcp-ai@pyronite.in</code>) in Liferay.</li>
+          <li><strong>Assign Granular Roles:</strong> Create a custom role that only has <code>View</code> or <code>Read</code> permissions for the specific APIs (like Headless Delivery or User Management) the AI needs to interact with.</li>
+          <li><strong>Generate the Basic Auth Token:</strong> Liferay requires Basic Authentication via a Base64 encoded string of your <code>username:password</code>.</li>
+        </ol>
+        
+        <p><em>Quick generation via terminal:</em></p>
+        <pre><code>echo -n "mcp-ai@pyronite.in:YourSecurePassword" | base64</code></pre>
+
+        <h3>Step 3: Configure Antigravity to Communicate with Liferay</h3>
+        <p>Antigravity requires a strictly formatted JSON configuration file to establish the Server-Sent Events (SSE) connection with Liferay.</p>
+        
+        <p>Locate your Antigravity configuration directory:</p>
+        <ul>
+          <li><strong>Windows:</strong> <code>%AppData%\Roaming\Antigravity\mcp.json</code> or <code>~/.antigravity/mcp_config.json</code></li>
+          <li><strong>macOS/Linux:</strong> <code>~/.config/Antigravity/mcp.json</code></li>
+        </ul>
+
+        <p>Add the following JSON block. We utilize the <code>npx mcp-remote</code> command to reliably handle the SSE connection bridge, which solves common IDE validation errors:</p>
+
+<pre><code>{
+  "mcpServers": {
+    "liferay": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "http://localhost:8080/o/mcp",
+        "--header",
+        "Authorization: Basic [YOUR_BASE64_TOKEN_HERE]",
+        "--header",
+        "Accept: text/event-stream"
+      ]
+    }
+  }
+}</code></pre>
+
+        <div style="margin: 2.5rem 0; border: 1px solid var(--border-light); padding: 5px; background: #000;">
+          <img src="assets/blogs/blog-1/1.png" style="width: 100%; height: auto; display: block;" alt="MCP JSON Config in Antigravity">
+          <p style="text-align: center; font-size: 0.85rem; margin-top: 1rem; color: var(--text-muted); font-family: var(--font-mono);">Fig 1. MCP JSON Config in Antigravity</p>
+        </div>
+
+        <p><strong>Crucial Configuration Notes:</strong></p>
+        <ul>
+          <li>You <em>must</em> have Node.js installed on your machine for the <code>npx</code> command to execute successfully.</li>
+          <li>The <code>--header "Accept: text/event-stream"</code> argument is mandatory. Without it, Liferay will reject the connection with a 400 Bad Request and an <em>"text/event-stream required"</em> error, causing Antigravity to hang in an infinite loading loop.</li>
+        </ul>
+
+        <h3>Step 4: Verify and Start Using AI as a Platform</h3>
+        <p>Once the JSON is saved, completely restart Antigravity (ensure you kill any lingering background <code>node.exe</code> processes via Task Manager to clear the cache).</p>
+
+        <p>When you reopen Antigravity, navigate to your MCP Servers panel. You should see <code>liferay</code> listed with <strong>3/3 tools</strong> enabled. These built-in tools instantly empower your AI workflow:</p>
+        <ul>
+          <li><strong><code>get-openapis</code></strong>: The AI can now discover all available Liferay OpenAPIs dynamically.</li>
+          <li><strong><code>get-openapi</code></strong>: Fetches the specific YAML structure for a chosen API, allowing the AI to understand exactly what parameters are required.</li>
+          <li><strong><code>call-http-endpoint</code></strong>: The AI can execute actual read/write operations (based on the permissions of your service account) directly against your Liferay instance.</li>
+        </ul>
+
+        <div style="margin: 2.5rem 0; border: 1px solid var(--border-light); padding: 5px; background: #000;">
+          <img src="assets/blogs/blog-1/2.png" style="width: 100%; height: auto; display: block;" alt="Completed MCP Liferay Configuration">
+          <p style="text-align: center; font-size: 0.85rem; margin-top: 1rem; color: var(--text-muted); font-family: var(--font-mono);">Fig 2. Completed MCP Liferay configuration in Antigravity</p>
+        </div>
+
+        <h4>The Pyronite Workflow in Action</h4>
+        <p>Before prompting the AI, here is our Liferay environment showing the current list of sites available:</p>
+        
+        <div style="margin: 2.5rem 0; border: 1px solid var(--border-light); padding: 5px; background: #000;">
+          <img src="assets/blogs/blog-1/3.png" style="width: 100%; height: auto; display: block;" alt="List of sites in Liferay before prompt">
+          <p style="text-align: center; font-size: 0.85rem; margin-top: 1rem; color: var(--text-muted); font-family: var(--font-mono);">Fig 3. List of sites in Liferay before any prompt</p>
+        </div>
+
+        <p>Instead of spending hours reading through API documentation or writing boilerplate REST calls, our developers can now simply open the Antigravity chat and ask:</p>
+        <blockquote>
+          "Create a new site in Liferay."
+        </blockquote>
+
+        <div style="margin: 2.5rem 0; border: 1px solid var(--border-light); padding: 5px; background: #000;">
+          <img src="assets/blogs/blog-1/4.png" style="width: 100%; height: auto; display: block;" alt="Prompting to create a site in Liferay">
+          <p style="text-align: center; font-size: 0.85rem; margin-top: 1rem; color: var(--text-muted); font-family: var(--font-mono);">Fig 4. Prompting to create a site in Liferay</p>
+        </div>
+
+        <p>The AI automatically invokes <code>get-openapis</code> to find the correct endpoint, understands the schema via <code>get-openapi</code>, and executes the fetch using <code>call-http-endpoint</code>.</p>
+        
+        <div style="margin: 2.5rem 0; border: 1px solid var(--border-light); padding: 5px; background: #000;">
+          <img src="assets/blogs/blog-1/5.png" style="width: 100%; height: auto; display: block;" alt="Site is created">
+          <p style="text-align: center; font-size: 0.85rem; margin-top: 1rem; color: var(--text-muted); font-family: var(--font-mono);">Fig 5. Site successfully created in Liferay</p>
+        </div>
+
+        <p>By integrating MCP with Liferay DXP, we are no longer just building portals; we are creating intelligent, self-documenting, and context-aware enterprise platforms.</p>
+
+        <hr>
+        
+        <p><strong>Ready to elevate your digital platform?</strong><br>
+        If you are looking to integrate advanced AI capabilities into your Liferay ecosystem or need expert enterprise architecture consulting, the Pyronite Tech team is here to help.</p>
+        
+        <p>Drop us a msg at <a href="mailto:business@pyronite.in" style="font-weight: bold; color: var(--primary);">business@pyronite.in</a> to start the conversation.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer style="padding: 2rem; margin-top: 4rem; border-top: 1px solid var(--border-light); text-align: center; font-family: var(--font-mono); font-size: 0.8rem; color: var(--text-muted);">
+    <p>&copy; 2026 Pyronite. All rights reserved. | <a href="terms.html" style="color: var(--primary); text-decoration: none;">Terms & Conditions</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
